@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.expressvpn" name="ExpressVPN" version="0.0.1" provider-name="Samuel Larsson">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Lightweight GUI for ExpressVPN interfacing</summary>
+		<description lang="en">Runs ExpressVPN commands through bash commands in Python scripts.</description>
+		<license>GNU General Public License, v2</license>
+    <platform>linux</platform>
+		<language></language>
+		<source>https://github.com/zag2me/script.hello.world</source>
+		<assets>
+      <icon>resources/icon.png</icon>
+		</assets>
+		<news>Updated the addon to use new addon.xml metadata</news>
+	</extension>
+</addon>
