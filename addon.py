@@ -5,7 +5,7 @@ addon = xbmcaddon.Addon()
 addonname = addon.getAddonInfo('name')
 
 line1 = "This is a simple example of OK dialog"
-swedenBtn = xbmcgui.ControlButton(0, 0, 200, 200, "Sweden")
+#swedenBtn = xbmcgui.ControlButton(0, 0, 200, 200, "Sweden")
 
 #xbmcgui.Window().addControl(swedenBtn)
 xbmcgui.Dialog().ok(addonname, line1)
